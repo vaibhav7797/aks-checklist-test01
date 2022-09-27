@@ -1,14 +1,12 @@
 {
-  "homepage": "https://vaibhav7797.github.io/aks-checklist/",
-  "name": "eks-checklist",
+  "name": "aks-checklist",
   "version": "0.0.1",
   "description": "The AKS Checklist for creating a production ready cluster",
   "scripts": {
     "start": "gulp dev",
+    "build": "gulp build",
     "test": "gulp test",
-    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
-    "predeploy": "gulp build"
-    "deploy": "gh-pages -d build"
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
   },
   "repository": {
     "type": "git",
@@ -19,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/lgmorand/aks-checklist/issues"
   },
-  // "homepage": "https://github.com/lgmorand/aks-checklist#readme",
+  "homepage": "https://github.com/lgmorand/aks-checklist#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^9.0.0",
