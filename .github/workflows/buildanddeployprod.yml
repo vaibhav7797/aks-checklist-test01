@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      matrix:
+      matrix: 
         node-version: [10.x]
 
-    steps:
+    steps:  
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
