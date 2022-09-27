@@ -69,7 +69,7 @@ jobs:
       run: aws s3 sync ./dist/ s3://eks-checklist-test --delete
     #   env:
     #     # The name of the directory you want to upload
-    #     SOURCE_DIR: "./dist"
+    #     SOURCE_DIR: "./dist"ththtrhrth
     #     # Your Azure Client ID
     #     AZURE_CLIENT_ID: "${{secrets.CLIENT_ID}}"
     #     # Your Azure TENANT ID
