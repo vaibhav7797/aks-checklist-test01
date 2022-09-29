@@ -2,8 +2,6 @@ name: Generate offline version
 
 on:
   push:
-    paths:
-    - '**/data/en/**'
     branches:
     - master
     paths-ignore:
