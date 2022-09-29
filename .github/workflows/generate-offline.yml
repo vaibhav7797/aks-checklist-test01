@@ -6,6 +6,9 @@ on:
     - '**/data/en/**'
     branches:
     - master
+    paths-ignore:
+      - '.github/scripts/**'
+      - 'markdown/**'  
     
  
   workflow_dispatch:
